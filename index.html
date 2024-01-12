@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sneakers Landing Page</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.product img {
+    max-width: 50%;
+    height: auto;
+}
+
+.product h2, .reviews h2 {
+    color: #333;
+}
+
+.description {
+    color: #666;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.author {
+    font-style: italic;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sneakers</h1>
+    </header>
+    <main>
+        <section class="product">
+            <img src="1.png" alt="Sneakers Image">
+            <h2>Running, Lifestyle, Casual Sneakers <br>Available Now.</h2>
+            <p class="description">Sneakers aren't just footwear, they're an extension of your personality. 
+                Explore our diverse collection of brands, colors, and materials to find the sneakers that 
+                speak to your unique style. Lace up and conquer your day in confidence.</p>
+            <a href="https://www.amazon.in/Bacca-Bucci-Balancer-Basketball-Shoes-White/dp/B09W34KRDL/ref=sr_1_12?crid=15YQNA288WQAT&dib=eyJ2IjoiMSJ9.tCggsYDvAnBWD6OMEAawrWBWr8Wgo7o-0dPEE-5qSOwMwCVh8-LFyfjdvTtAqZN-Uw4KlNKUPyy-nNuxPwCORA.9z1VRGC_-gYLIxMtYaWa1E7fx-7c4X5Zxo6FoEze04g&dib_tag=se&keywords=sneaker&qid=1705037300&sprefix=sneaker%2Caps%2C199&sr=8-12"><button id="buyNowBtn">Buy Now</button></a>
+        </section>
+        <section class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="testimonial">
+                <p>"These sneakers are game-changers! The responsive cushioning and incredible grip took my running 
+                    to the next level. I shaved minutes off my personal best and my feet feel amazing even after miles 
+                    of pavement pounding. These are more than just shoes, they're my running partners.<br>- Sarah M., marathon runner
+                    "</p>
+                <p class="author"></p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company Name</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
